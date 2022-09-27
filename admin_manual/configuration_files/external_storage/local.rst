@@ -13,7 +13,7 @@ writable by your HTTP server user. These ownership and permission examples
 are on Ubuntu Linux::
 
  sudo chown -R www-data:www-data /path/to/localdir
- sudo chmod -R 0750 /path/to/localdir
+ sudo chmod 0750 /path/to/localdir
 
 Important: If you use consecutive commands, make sure, you are user ``www-data``::
 
